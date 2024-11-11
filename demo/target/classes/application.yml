@@ -12,4 +12,4 @@ spring:
 
 # 配置日志
 logging:
-  level:
+  config: classpath:log4j2-spring.xml
