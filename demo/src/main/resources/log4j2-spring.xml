@@ -2,7 +2,7 @@
 <!-- 日志级别以及优先级排序：OFF > FATAL > ERROR > WARN > INFO > DEBUG > TRACE > ALL -->
 <!-- Configuration的status属性用于设置log4j2自身内部的信息输出，可以不设置，当设置成trace时，会看到log4j2内部各种详细输出 -->
 <!-- Configuration的monitorInterval属性用于设置log4j2自动检测配置文件的执行间隔，当检测到有更新时会重新加载配置，单位为秒 -->
-<Configuration status="debug" monitorInterval="60">
+<Configuration status="info" monitorInterval="60">
     <Appenders>
         <!-- 这个输出控制台的配置 -->
         <Console name="Console" target="SYSTEM_OUT">
