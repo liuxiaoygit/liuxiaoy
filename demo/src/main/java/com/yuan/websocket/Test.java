@@ -1,4 +1,4 @@
-package com.yuan.algorithm.websocket;
+package com.yuan.websocket;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,4 +1,4 @@
-package com.yuan.algorithm.websocket;
+package com.yuan.websocket;
 
 import org.apache.axis.client.Call;
 import org.apache.axis.client.Service;
